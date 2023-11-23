@@ -73,5 +73,3 @@ Thumbs.db
 build_outputs/
 build/
 android/
-devops/
-Makefile
