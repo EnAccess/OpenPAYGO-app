@@ -1,0 +1,7 @@
+{
+  "name": "OpenPAYGO App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

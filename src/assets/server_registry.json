@@ -1,0 +1,12 @@
+[
+    {
+        "name": "PaygOps",
+        "id": "a1",
+        "url": "https://openpaygo-device.paygops.com/api/v2/dd"
+    },
+    {
+        "name": "Example",
+        "id": "00",
+        "url": "https://enbrft7741nrp.x.pipedream.net"
+    }
+]

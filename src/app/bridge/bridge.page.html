@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      OpenPAYGO Bridge
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">OpenPAYGO Bridge</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-card class="special-card-centered">
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">OpenPAYGO Bridge</ion-card-title>
+      <ion-card-subtitle class="ion-text-center">{{ 'CONNECT_BRIDGE' | translate }}</ion-card-subtitle>
+    </ion-card-header>
+
+    <h1 class="ion-text-center huge-icon"><ion-icon aria-hidden="true" name="git-compare-outline"></ion-icon></h1>
+  
+    <ion-card-content>
+      {{ 'OPENPAYGO_BRIDGE_INSTRUCTIONS' | translate }}
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
