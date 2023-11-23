@@ -14,7 +14,7 @@ export class SettingsService {
     this.initBackendServers()
   }
 
-  version:string = '0.6.0';
+  version:string = '0.0.0001';
 
   // --- Language Settings
 
