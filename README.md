@@ -12,3 +12,6 @@ And uses the following plugins:
 
 ## Important Information
 - When testing, you might need to use an external app to set the type of the tag to "application/openpaygo" with an empty payload before you can use the "write test data" so that the OS does not take offer the NFC event (this depends on the model of your phone)
+
+## Known Issues
+- On some phones with Android version 13, the app does not seem to be able to start. If you encounter this issue please share the details of your phone model and make. 
