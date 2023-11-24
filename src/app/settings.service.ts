@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { TranslateService } from '@ngx-translate/core';
+import { supportedLanguages } from './constants'
 
 @Injectable({
   providedIn: 'root'
@@ -18,35 +19,8 @@ export class SettingsService {
 
   // --- Language Settings
 
-  supportedLanguages:any = [
-    {
-      code: 'en',
-      name: 'English'
-    },
-    {
-      code: 'sw',
-      name: 'Swahili'
-    },
-    {
-      code: 'fr',
-      name: 'French'
-    },
-    {
-      code: 'am',
-      name: 'Amharic'
-    },
-    {
-      code: 'pt',
-      name: 'Portuguese'
-    },
-    {
-      code: 'es',
-      name: 'Spanish'
-    }
-  ]
-
   getAvailableLanguages() {
-    return this.supportedLanguages
+    return supportedLanguages
   }
 
   getCurrentLanguage() {
