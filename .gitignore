@@ -75,3 +75,5 @@ build/
 android/
 Makefile
 
+devops/
+.gitlab-ci.yml
