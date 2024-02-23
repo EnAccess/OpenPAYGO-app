@@ -33,6 +33,7 @@
     align-items: center;
     flex-direction: column;
     height: 70%;
+    margin-top: 5vh;
 }
 .ion-card-centered ion-card-content {
     display: flex;
@@ -45,4 +46,13 @@
     font-size: 5em;
     margin-bottom: 0em;
     margin-top: 0.2em;
+}
+
+ion-header {
+    --background: #003E51;
+}
+
+.big-image {
+    width: 100%;
+    max-height: 20vh;
 }

@@ -20,6 +20,9 @@
   
     <ion-card-content>
       {{ 'APP_EXPLANATION' | translate }} 
+      <ion-item-divider>
+        <ion-label>{{ 'SETTINGS' | translate }}</ion-label>
+      </ion-item-divider>
       <ion-item>
         <ion-select label="Language" [ngModel]="selectedLanguage" (ionChange)="updateLanguage($event)">
           <ion-select-option *ngFor="let item of getAvailableLanguages()" [value]="item.code">{{ item.name }}</ion-select-option>
@@ -30,12 +33,14 @@
           <ion-select-option *ngFor="let item of getAvailableBackendServers()" [value]="item.url">{{ item.name }}</ion-select-option>
         </ion-select>
       </ion-item>
+      <ion-item>
+        <ion-label>{{ 'VERSION' | translate }}:</ion-label>
+        <ion-label class="ion-text-end">{{ version }}</ion-label>
+      </ion-item>
+      <ion-item [routerLink]="['/test']">
+        <ion-label>{{ 'TESTING_MENU' | translate }}</ion-label>
+      </ion-item>
     </ion-card-content>
   </ion-card>
-
-  <div class="ion-text-center bottom-text-container">
-    <a [routerLink]="['/test']" class="hidden-text">{{ 'TESTING_MENU' | translate }} </a> 
-    <p>{{ 'VERSION' | translate }}: {{ version }}</p>
-  </div>
 
 </ion-content>

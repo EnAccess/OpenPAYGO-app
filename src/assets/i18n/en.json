@@ -31,5 +31,6 @@
     "PASS_TESTS_FULL_FLOW": "Test full flow",
     "PASS_TESTS_WRITE_TEST_DATA": "Write test data",
     "TESTS_PASS_WRITE_READY": "Pass Ready for Write",
-    "TESTS_PASS_WRITE_READY_DETAILS": "Tap the NFC tag to write OpenPAYGO Data to it"
+    "TESTS_PASS_WRITE_READY_DETAILS": "Tap the NFC tag to write OpenPAYGO Data to it",
+    "SETTINGS": "Settings"
 }
