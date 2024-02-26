@@ -10,7 +10,7 @@ This repository is for the OpenPAYGO App. It is a mobile app that allows users t
   <a href="https://github.com/EnAccess/OpenPAYGO-app/blob/main/LICENSE" target="_blank">
     <img
       alt="License"
-      src="https://img.shields.io/github/license/EnAccess/openpaygo-app"
+      src="https://img.shields.io/github/license/EnAccess/OpenPAYGO-app"
     >
   </a>
 </p>
